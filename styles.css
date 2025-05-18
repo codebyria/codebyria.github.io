@@ -28,10 +28,11 @@
     padding: 0 20px 0 0;
 }
 .logo__img {
-  height: 2rem;  /* try 2.2rem if you want bolder presence */
+  height: 2rem;
   width: auto;
-  display: block;
   max-width: 100%;
+  display: inline-block;
+  object-fit: contain;
 }
 .header .container {
   display: flex;
