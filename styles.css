@@ -55,6 +55,28 @@
     display: inline-block;
     margin-left: 20px;
 }
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0 0;
+}
+.logo__img {
+  height: 2rem;  /* try 2.2rem if you want bolder presence */
+  width: auto;
+  display: block;
+  max-width: 100%;
+}
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.branding {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
 
 
 .header__nav-link {
