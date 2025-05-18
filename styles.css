@@ -1,11 +1,11 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
     body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
-    background-color: (233, 227, 217, 0.699);
+    background-color: rgba(233, 227, 217, 0.699);
+
     
 }
 
@@ -14,9 +14,11 @@
     top: 0;
     width: 100%;
     z-index: 2;
-    background-color: (233, 227, 217, 0.699);
+    background-color: rgb(233, 227, 217, 0.699);
     padding: 10px 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    opacity: 90%;
+    /* opacity: 0.5; */
 }
 
 .header .container {
@@ -24,6 +26,30 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 20px 0 0;
+}
+.logo__img {
+  height: 2rem;  /* try 2.2rem if you want bolder presence */
+  width: auto;
+  display: block;
+  max-width: 100%;
+}
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.branding {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+@media (max-width: 768px) {
+  .branding {
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
 }
 
 .container {
@@ -54,28 +80,6 @@
 .header__nav-item {
     display: inline-block;
     margin-left: 20px;
-}
-.header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px 0 0;
-}
-.logo__img {
-  height: 2rem;  /* try 2.2rem if you want bolder presence */
-  width: auto;
-  display: block;
-  max-width: 100%;
-}
-.header .container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.branding {
-  display: flex;
-  align-items: center;
-  gap: 2rem;
 }
 
 
@@ -113,7 +117,7 @@
 
 .header__nav-item--linkedin a {
     font-size: 37px;
-    border-radius: 20px;
+    border-radius:70%;
 }
 .header__nav-item--linkedin:hover a {
     opacity: 0.5;
