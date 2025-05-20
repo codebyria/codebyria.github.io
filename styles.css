@@ -288,3 +288,14 @@ max-height: 80%;
 .header__nav-item {
     margin-top: 10px;
 }
+/*  Tittle is a bit crowded on mobile adding adjustments */
+
+@media (max-width: 480px) {
+  .intro__title {
+    font-size: 2rem; /* or adjust as needed */
+  }
+  .intro_subtitle,
+  .intro__highlight {
+    font-size: 1.2rem;
+  }
+}
