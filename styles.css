@@ -8,6 +8,11 @@
 
     
 }
+.logo__img {
+  width: 1.9rem; /* or adjust to fit */
+  max-width: 100%;
+  height: auto;
+}
 
 .header {
     position: fixed;
